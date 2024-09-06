@@ -101,3 +101,19 @@ let pizza = 'tasty';
 //* }
 
 const eatPizza = pizza === 'tasty' ? console.log('yum') : console.log('yuck')
+
+
+// 1. SET LANGUAGE
+
+// Construct a single line of code that assigns a default value using the logical OR operator. This line should match the logic of the following statement: 
+
+// "LANG is equal to localLangConfig or the default value of English."
+
+const localLangConfig = null;  // Change to 'es', 'fr', etc., or keep it null
+
+// a. Create a variable called LANG
+// b. Assign LANG the value of localLangConfig or 'en' as a default
+let LANG = localLangConfig || 'en'
+
+// Log the result
+console.log('Language setting:', LANG);
