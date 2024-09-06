@@ -73,3 +73,4 @@ const userProfile = {
     username: [propertyName]
 }
 console.log(userProfile.username)
+
