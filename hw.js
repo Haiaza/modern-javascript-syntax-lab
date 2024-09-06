@@ -129,3 +129,11 @@ let USER_THEME = userSavedTheme || 'light'
 
 // Log the result
 console.log('User theme setting:', USER_THEME);
+
+
+const adventurer = {
+    name: 'Alice',
+};
+let cat = adventurer.cat?.age
+
+  console.log(cat); // TypeError: Cannot read properties of undefined (reading 'name')
