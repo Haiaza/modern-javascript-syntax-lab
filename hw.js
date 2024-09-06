@@ -63,3 +63,13 @@ console.log(controversialPizzaToppings)
 const myCar = {...car, model:'q7'}
 
 console.log(myCar)
+
+// Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+const propertyName = "MF_DOOM"
+const userProfile = {
+    username: [propertyName]
+}
+console.log(userProfile.username)
